@@ -111,7 +111,8 @@ p {
 		padding: 0;
 		text-align: center;
 	}
-	.about-section {
+	.about-section.container {
 		text-align: center;
+		padding: 0;
 	}
 }
