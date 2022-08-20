@@ -1,6 +1,6 @@
 :root {
-	--branding-color: #6c63ff;
-	--secondary-color: #f9f7fe;
+	--branding-color: #606470;
+	--secondary-color: #93deff;
 	--heading-font-family: "Arima", cursive;
 	--default-font-family: "Poppins", sans-serif;
 }
@@ -28,11 +28,21 @@ p {
 	line-height: 2;
 	font-weight: normal;
 }
-
+.navbar {
+	background-color: var(--branding-color);
+}
+.navbar-brand {
+	font-size: 40px;
+	color: var(--secondary-color);
+}
+.nav-link {
+	font-size: 20px;
+	color: var(--secondary-color);
+}
 .hero {
 	background: var(--secondary-color);
 	text-align: center;
-	padding: 160px 20px;
+	padding: 120px 0;
 }
 
 .hero p {
@@ -49,7 +59,7 @@ p {
 	font-size: 24px;
 }
 .about-section {
-	padding: 160px 20px;
+	padding: 120px 20px;
 }
 .about-section h1 {
 	font-size: 64px;
@@ -61,9 +71,6 @@ p {
 }
 .about-section-content {
 	margin: 30px;
-}
-.about-photo {
-	border-radius: 10px;
 }
 
 .btn-branding {
