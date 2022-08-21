@@ -24,7 +24,7 @@ h1 {
 }
 
 p {
-	font-size: 20px;
+	font-size: 30px;
 	line-height: 2;
 	font-weight: normal;
 }
@@ -58,18 +58,22 @@ p {
 	line-height: 2;
 	font-size: 24px;
 }
-.about-section {
+.img-fluid {
+	border: 20px solid var(--branding-color);
+	border-radius: 4px;
+}
+.content-section {
 	padding: 120px 20px;
 }
-.about-section h1 {
+.content-section h1 {
 	font-size: 64px;
 	line-height: 80px;
 }
-.about-section h2 {
+.content-section h2 {
 	font-size: 18px;
 	font-family: var(--default-font-family);
 }
-.about-section-content {
+.content {
 	margin: 30px;
 }
 
@@ -84,6 +88,7 @@ p {
 .btn-branding-outline {
 	color: var(--branding-color);
 	border: 1px solid var(--branding-color);
+	background-color: var(--secondary-color);
 	border-radius: 4px;
 	font-size: 18px;
 	line-height: 27px;
