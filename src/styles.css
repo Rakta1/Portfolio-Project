@@ -59,7 +59,7 @@ p {
 	font-size: 24px;
 }
 .img-fluid {
-	border: 20px solid var(--branding-color);
+	border: 25px solid var(--branding-color);
 	border-radius: 4px;
 }
 .content-section {
@@ -123,7 +123,7 @@ p {
 		padding: 0;
 		text-align: center;
 	}
-	.about-section.container {
+	.content-section {
 		text-align: center;
 		padding: 0;
 	}
