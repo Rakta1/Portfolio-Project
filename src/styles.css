@@ -104,7 +104,14 @@ p {
 .coder a {
 	text-decoration: none;
 }
-
+.contacts a {
+	text-decoration: none;
+	font-size: 30px;
+	color: var(--branding-color);
+}
+.contacts a:hover {
+	color: var(--secondary-color);
+}
 @media (max-width: 900px) {
 	h1 {
 		font-size: 44px;
