@@ -112,6 +112,16 @@ p {
 .contacts a:hover {
 	color: var(--secondary-color);
 }
+footer a {
+	text-decoration: none;
+	color: var(--branding-color);
+}
+footer a:hover {
+	color: var(--secondary-color);
+}
+footer i {
+	margin: 0 20px;
+}
 @media (max-width: 900px) {
 	h1 {
 		font-size: 44px;
