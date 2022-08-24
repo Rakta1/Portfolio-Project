@@ -158,4 +158,7 @@ footer i {
 		text-align: center;
 		padding: 0;
 	}
+	footer a {
+		font-size: 30px;
+	}
 }
